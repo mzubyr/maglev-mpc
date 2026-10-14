@@ -1,0 +1,7 @@
+no mismatch                1 mm recovered: True  | step error (%):   0.0 | max offset (mm): 3.5
+B gain -30 %               1 mm recovered: True  | step error (%):  -0.5 | max offset (mm): 2.0
+a21 +30 %                  1 mm recovered: True  | step error (%):  -1.7 | max offset (mm): 2.5
+a23 -30 %                  1 mm recovered: True  | step error (%):  -2.4 | max offset (mm): 2.0
+a23 -50 %                  1 mm recovered: True  | step error (%):  -5.8 | max offset (mm): 1.5
+a23 -60 %                  1 mm recovered: True  | step error (%):  lost | max offset (mm): 1.0
+B gain -60 %               1 mm recovered: True  | step error (%):  lost | max offset (mm): 1.0
