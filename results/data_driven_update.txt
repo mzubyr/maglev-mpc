@@ -1,0 +1,18 @@
+
+True plant: a23 -30 %, B gain -20 % (mild)
+  nominal MPC         step error  -2.80 %   max offset 1.5 mm
+  learned MPC, run 0  step error  -0.27 %   max offset 1.5 mm
+  learned MPC, run 1  step error  -0.57 %   max offset 1.5 mm
+  learned MPC, run 2  step error  -0.19 %   max offset 1.5 mm
+  learned MPC, run 3  step error  -0.21 %   max offset 1.5 mm
+  learned MPC, run 4  step error  -0.45 %   max offset 1.5 mm
+  oracle (true model) step error  -0.00 %   max offset 1.5 mm
+
+True plant: a23 -50 %, B gain -30 % (hard)
+  nominal MPC         step error   lost %   max offset 1.0 mm
+  learned MPC, run 0  step error  -0.36 %   max offset 1.0 mm
+  learned MPC, run 1  step error  -0.40 %   max offset 1.0 mm
+  learned MPC, run 2  step error  +0.07 %   max offset 1.0 mm
+  learned MPC, run 3  step error  +0.07 %   max offset 1.0 mm
+  learned MPC, run 4  step error  -0.22 %   max offset 1.0 mm
+  oracle (true model) step error  +0.00 %   max offset 1.0 mm
